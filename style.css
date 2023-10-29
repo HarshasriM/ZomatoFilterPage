@@ -82,7 +82,7 @@ a{
 .mainheading{
     margin-top: 27px;
     margin-left:112px;
-    width: 450px;
+    width: 500px;
     height: 51px;
     margin-bottom:17px;
     text-align:left;
@@ -195,7 +195,7 @@ hr{
     border:.1px solid #DEDFE5;
 }
 .slides{
-    margin:25px 492px;
+    margin:25px 563px;
 
 }
 .foot{
