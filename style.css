@@ -1,0 +1,212 @@
+header{
+    background-color: #CE0505;
+    width: 100%;
+    height: 55px;
+    padding-top: 8px;
+    padding-left:15px;
+    
+}
+.header_class{
+    display: inline;
+    padding:10px 10px;
+    margin:10px 5px;
+}
+.logo{
+    display:inline-block;
+    font-size:25px;
+    font-weight: 600;
+    background-color: white;
+    color:#CE0505;
+    border-radius: 50%;
+    padding:5px 10px;
+    margin:3px 16px;
+}
+.navigation{
+    display: inline;
+    float:right;
+    padding:10px;
+    padding-right:50px;
+    padding-top:13px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    opacity:1;
+}
+.create{
+    border:1px solid white;
+    margin: 10px;
+    padding:5px;
+    border-radius:3px;
+    opacity:1
+}
+
+.breakfast{
+    display: inline-block;
+}
+.filter{
+    background-color:white;
+    display: inline-block;
+    width: 260px;
+    height: 682px;
+    float: left;
+    margin-left:112px;
+    margin-bottom:50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1; 
+}
+.break-1{
+    background-color: aqua;
+    width: 791px;
+    height: 291px;
+    background-position: 100%;
+    margin-left:20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+   
+}
+.break-2{
+    background-color:purple;
+    width: 791px;
+    height: 291px;
+    background-position: 100%;
+    margin-top:30px;
+    margin-left:20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+   
+}
+.mainheading{
+    margin-top: 27px;
+    margin-left:112px;
+    width: 514px;
+    height: 51px;
+    margin-bottom:17px;
+    text-align:left;
+    font: normal normal bold 36px/55px Poppins;
+    font-family: Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.filter-heading{
+    margin-left:27px;
+    text-align:left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0.5px;
+    color: #192F60;
+    opacity: 1;
+}
+.side-heading{
+    margin-left: 27px;
+    width: 106px;
+    height: 20px;
+    margin-bottom:20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+#options{
+    margin-left: 27px;
+    margin-top:-15px;
+    width: 208px;
+    height: 30px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1
+}
+.checkbox{
+    top: 370px;
+    width: 86px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+
+}
+.checkbox1{
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+
+}
+.img1{
+    top: 220px;
+    left: 453px;
+    width: 120px;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+h6{
+    margin-top:-60px;
+    margin-left:20px;
+    text-align:left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    display:inline-block;
+    margin-bottom:0px;
+    float:left;
+}
+.img_break{
+    display: inline-block;
+    
+}
+.image{
+    display: inline-block;
+}
+.style-2{
+    margin-left:25px;
+    margin-top:0px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    margin-bottom:0px;
+
+}
+.style-1{
+    margin-left:25px;
+    margin-top:0px;
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-bottom:0px;
+    font-size: larger;
+
+}
+hr{
+    margin:20px 30px;
+    border:.1px solid #DEDFE5;
+}
+.slides{
+    margin:25px 563px;
+
+}
+.foot{
+    border:.2px solid #DEDFE5;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    
+    border-radius: 10px;
+    color:#8C96AB;
+    margin-top:10px;
+    text-align:center;
+}
+

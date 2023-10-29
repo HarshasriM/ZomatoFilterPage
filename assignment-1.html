@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato filter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_class">
+            <div class="logo">e!</div>
+             <nav class="navigation"> 
+                <a href="#">login</a>
+                <a  class="create" href="#">create an account</a>
+             </nav>   
+        </div>
+    </header>
+    <div class="mainheading">
+        <p style="margin-top:27px">Breakfast Places in Mumbai</p>
+    </div>
+    <div class="division">
+        <div class="filter">
+            <p class="filter-heading">Filters</p>
+            <p class="side-heading">select location</p>
+            <select id="options">
+                <option value="Select Location">Select Location</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Sarjapur Road">Sarjapur Road</option>
+                <option value="Bengaluru HSR Layout">Bengaluru HSR Layout</option>
+                <option value="Bengaluru Kormangala">Bengaluru Kormangala</option>
+                <option value="Bengaluru Jaya Nagar">Bengaluru Jaya Nagar</option>
+            </select>
+            <p class="side-heading">cusine</p>
+            <div>
+                <input type="checkbox" id="NorthIndia" name="NorthIndia" value="NorthIndia" class="checkbox">
+                <label for="NorthIndia"  class="checkbox1">NorthIndia</label><br>
+                <input type="checkbox" id="SouthIndia" name="SouthIndia" value="SouthIndia"  class="checkbox">
+                <label for="SouthIndia"  class="checkbox1">SouthIndia</label><br>
+                <input type="checkbox" id="Chinese" name="Chinese" value="Chinese" class="checkbox">
+                <label for="Chinese"  class="checkbox1">Chinese</label><br>
+                <input type="checkbox" id="FastFood" name="FastFood" value="FastFood"  class="checkbox">
+                <label for="FastFood"  class="checkbox1">FastFood</label><br>
+                <input type="checkbox" id="StreetFood" name="StreetFood" value="StreetFood" class="checkbox">
+                <label for="StreetFood"  class="checkbox1">StreetFood</label><br>
+            </div>
+            <p class="side-heading">Cost For Two</p>
+            <div>
+                <input type="radio" id="less-than 500" name="cost" value="less-than 500" class="checkbox">
+                <label for="less-than 500"  class="checkbox1">less-than 500"</label><br>
+                <input type="radio" id="500-1000" name="cost" value="500-1000"  class="checkbox">
+                <label for="500-1000"  class="checkbox1">500-1000</label><br>
+                <input type="radio" id="1000-1500" name="cost" value="1000-1500" class="checkbox">
+                <label for="1000-1500"  class="checkbox1">1000-1500</label><br>
+                <input type="radio" id="1500-2000" name="cost" value="1500-2000"  class="checkbox">
+                <label for="1500-2000"  class="checkbox1">1500-2000</label><br>
+                <input type="radio" id="2000+" name="cost" value="2000+" class="checkbox">
+                <label for="2000+"  class="checkbox1">2000+</label><br>
+            </div>
+            <p class="side-heading">Sort</p>
+            <div>
+                <input type="radio" id="price high to low" name="cost" value="price high to low" class="checkbox">
+                <label for="price high to low"  class="checkbox">price high to low</label><br>
+                <input type="radio" id="price low to high" name="cost" value="price low to high"  class="checkbox">
+                <label for="price low to high"  class="checkbox">price low to high</label><br>
+            </div>
+        </div>
+        <div class="breakfast">
+            <div class="break-1">
+                <div class="image">
+                    <img src="./breakfast.png" class="img1"/>
+                    <div class="img_break">
+                        <h6>The Big Chill Cakery</h6>
+                        <p class="style-1">Fort</p>
+                        <p class="style-2">Shop 1,Plot D,Samrudhhi complex,Chincholi...</p>
+                    </div>
+                </div>
+                <hr />
+                <div>
+                    <p style="display: inline-block " class="style-2">CUSINES:</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p style="display: inline-block " class="style-1">Bakery</p>
+                </div>
+               <div>
+                    <p style="display: inline-block"  class="style-2">COST FOR TWO:</p>
+                    &nbsp;&nbsp;&nbsp;
+                    <p style="display: inline-block"  class="style-1">$700</p>
+               </div>
+                
+                
+            </div>
+            <div class="break-2">
+                <div class="image">
+                    <img src="./breakfast.png" class="img1"/>
+                    <div class="img_break">
+                        <h6>The Bake Shop</h6>
+                        <p class="style-1">Fort</p>
+                        <p class="style-2">Shop 1,Plot D,Samrudhhi complex,Chincholi...</p>
+                    </div>
+                </div>
+                <hr />
+                <div>
+                    <p style="display: inline-block " class="style-2">CUSINES:</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p style="display: inline-block " class="style-1">Bakery</p>
+                </div>
+               <div>
+                    <p style="display: inline-block"  class="style-2">COST FOR TWO:</p>
+                    &nbsp;&nbsp;&nbsp;
+                    <p style="display: inline-block"  class="style-1">$700</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="slides">
+            <div class="foot"> < </div>
+            <div class="foot" style="background-color:gray ;color:white">1</div>
+            <div class="foot">2</div>
+            <div class="foot">3</div>
+            <div class="foot">4</div>
+            <div class="foot">5</div>
+            <div class="foot">6</div>
+            <div class="foot"> > </div>
+    </div>
+</body>
+</html>
