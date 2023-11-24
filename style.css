@@ -12,14 +12,14 @@ header{
     margin:10px 5px;
 }
 .logo{
-    display:inline-block;
-    font-size:25px;
+   display: inline-block;
+    font-size: 33px;
     font-weight: 600;
     background-color: white;
-    color:#CE0505;
+    color: #EB2929;
     border-radius: 50%;
-    padding:5px 10px;
-    margin:3px 16px;
+    padding: 3px 10px;
+    margin: 2px 16px;
 }
 .navigation{
     display: inline;
@@ -34,9 +34,9 @@ a{
     opacity:1;
 }
 .create{
-    border:1px solid white;
+   border:1px solid white;
     margin: 10px;
-    padding:5px;
+    padding:8px;
     border-radius:3px;
     opacity:1
 }
@@ -113,22 +113,26 @@ a{
 }
 #options{
     margin-left: 27px;
-    margin-top:-15px;
+    margin-top: -15px;
     width: 208px;
     height: 30px;
     border: 1px solid #8C96AB;
     border-radius: 3px;
-    opacity: 1
+    opacity: 1;
+    color: #8C96AB;
+    padding-left: 16px;
 }
 .checkbox{
     top: 370px;
-    width: 86px;
-    height: 20px;
+    width: 83px;
+    height: 15px;
     text-align: left;
     font: normal normal normal 14px/21px Poppins;
     letter-spacing: 0px;
     color: #8C96AB;
     opacity: 1;
+    margin-right: -29px;
+    margin-bottom: 13px;
 
 }
 .checkbox1{
@@ -195,18 +199,22 @@ hr{
     border:.1px solid #DEDFE5;
 }
 .slides{
-    margin:25px 493px;
+   margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: -100px;
 
 }
 .foot{
-    border:.2px solid #DEDFE5;
-    display:inline-block;
-    width:30px;
-    height:30px;
+   border: 0.2px solid #DEDFE5;
+    width: 27px;
+    line-height: 27px;
+    border-radius: 7px;
+    color: #8C96AB;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
     
-    border-radius: 10px;
-    color:#8C96AB;
-    margin-top:10px;
-    text-align:center;
 }
 
